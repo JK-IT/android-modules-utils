@@ -14,7 +14,13 @@
         android:theme="@style/Theme.Joyin"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="kodojo.joyin.joyinapp.JoyinActivity"
+            android:exported="false" />
+        <activity
+            android:name="kodojo.joyin.deveinfo.DeveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OpenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
